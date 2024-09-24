@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: f9deb9431db74aa46bf917ed51bebdee,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: f8dd3e223f1bdac4aaaeb4451d1b5235,
     type: 2}
 --- !u!196 &4
@@ -436,6 +437,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 502655893777479477, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 502655893777479477, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 655988361447482426, guid: 391d13f0ed3059e459cb5fa8343be5b0,
         type: 3}
       propertyPath: m_IsActive
@@ -463,8 +474,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3940405931053775107, guid: 391d13f0ed3059e459cb5fa8343be5b0,
         type: 3}
+      propertyPath: m_Range
+      value: 162.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940405931053775107, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
       propertyPath: m_Intensity
-      value: 5000
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940405931053775107, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940405931053775107, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940405931053775107, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043854781812919362, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Range
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043854781812919362, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043854781812919362, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043854781812919362, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092905122436177494, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092905122436177494, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372655181557546356, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Range
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372655181557546356, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372655181557546356, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372655181557546356, guid: 391d13f0ed3059e459cb5fa8343be5b0,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6631432811944191211, guid: 391d13f0ed3059e459cb5fa8343be5b0,
         type: 3}
